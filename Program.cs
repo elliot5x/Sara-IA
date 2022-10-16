@@ -28,6 +28,8 @@ namespace Game // Simplesmente a Sarah
 
             switch (res)
             {
+                case "sei": Sim(); break;
+                case "Sei": Sim(); break;
                 case "sim": Sim(); break;
                 case "Sim": Sim(); break;
                 case "Não": Nao(); break;
@@ -46,10 +48,32 @@ namespace Game // Simplesmente a Sarah
                 case "fodase": Ofensa(); break;
                 case "Foda-se": Ofensa(); break;
                 case "foda-se": Ofensa(); break;
-                case "Oi sarah": Secret(); break;
+                case "fds": Ofensa(); break;
+                case "Fds": Ofensa(); break;
+                case "Sarah": Wtf(); break;
+                case "Sarah?": Wtf(); break;
+                case "sarah": Wtf(); break;
+                case "sarah?": Wtf(); break;
                 default: Ops(); break;
             }
 
+        }
+        static void Wtf()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Wtf???");
+            Thread.Sleep(2000);
+            Console.WriteLine("Como você sabe disso?");
+            Thread.Sleep(2000);
+            Console.WriteLine("Você é um stalker??");
+            Thread.Sleep(2000);
+            Console.WriteLine("Que horror, vou ir embora");
+            Thread.Sleep(2000);
+            Console.WriteLine("Lunático");
+            Thread.Sleep(3000);
+
+            Console.ReadLine();
         }
         static void Secret() // Fechou
         {
@@ -139,11 +163,11 @@ namespace Game // Simplesmente a Sarah
         {
             Console.Clear();
 
-            Console.WriteLine("Como não seu bobo?");
+            Console.WriteLine("Como não retardado?");
             Thread.Sleep(2000);
             Console.WriteLine("Então quem digitou isso ai?");
             Thread.Sleep(2000);
-            Console.WriteLine("Bobo");
+            Console.WriteLine("Retardado");
             Thread.Sleep(3000);
 
             Console.Clear();
